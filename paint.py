@@ -2,11 +2,10 @@
 
 Exercises
 
-1. Add a color.
-2. Complete circle.
-3. Complete rectangle.
-4. Complete triangle.
-5. Add width parameter.
+1.- Color nuevo
+2.- Dibujar un círculo
+3.- Completar el rectángulo
+4.- Completar el triángulo
 """
 
 from turtle import *
@@ -79,6 +78,8 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+"""Se agrega el color Brown a la paleta de colores """
+onkey(lambda: color('Brown'), 'B')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
