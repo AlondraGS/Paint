@@ -47,8 +47,19 @@ def rectangle(start, end):
 
 def triangle(start, end):
     """Draw triangle from start to end."""
+    """Se levanta el lapiz"""
     up()
-    
+    """Va a la coordenada donde hace click"""
+    goto(start.x, start.y)
+    """Baja el lapiz"""
+    down()
+    begin_fill()
+    """Bucle for para dibujar el triangulo"""
+    for count in range(3):
+        forward(end.x - start.x)
+        left(120)
+
+    end_fill()
 
 
 def tap(x, y):
