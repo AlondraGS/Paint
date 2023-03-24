@@ -36,7 +36,7 @@ def square(start, end):
 
 
 def circulo(start, end):
-    """Draw rectangle from start to end."""
+    """Draw circle from start to end."""
     up()
     begin_fill()
     goto(start.x, start.y)
