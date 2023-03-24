@@ -42,6 +42,7 @@ def circulo(start, end):
     goto(start.x, start.y)
     down()
     x = float(start.x) - float(end.x)
+    """Se utiliza la función circle"""
     circle(x)
     end_fill()
 
