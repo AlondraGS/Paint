@@ -54,7 +54,7 @@ def rectangle(start, end):
     goto(start.x, start.y)
     down()
     begin_fill()
-
+    """Ciclo for para dibujar el rectangulo"""
     for count in range(2):
         forward(end.x - start.x)
         left(90)
