@@ -61,7 +61,6 @@ def rectangle(start, end):
         left(90)
 
     end_fill()
-    #Prueba
 
 
 def triangle(start, end):
