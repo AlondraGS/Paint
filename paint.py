@@ -43,8 +43,8 @@ def circle(position, radius, color):
     color(color)
     begin_fill()
     circle(radius)
-    end_fill()
-    #
+    end_fill
+    
 
 
 
